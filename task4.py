@@ -11,7 +11,7 @@ p_ab_c = 2/4
 p_b1 = 0.8
 p_b2 = 0.7
 p_b3 = 0.9
-p_a = p_b1 + p_b2 + p_b3
+p_a = p_ab_ab * (p_b1 + p_b2) + p_ab_c * p_b3
 
 p1 = (p_ab_ab * p_b1) / p_a
 p2 = (p_ab_ab * p_b2) / p_a
